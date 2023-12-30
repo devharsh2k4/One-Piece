@@ -156,7 +156,7 @@ section{
 
 section .container{
     padding: 3rem;
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-content: center;
@@ -231,3 +231,8 @@ section .container > *{
     }
 }
 
+
+.triojungle{
+    margin-top: 350px;
+    justify-content: flex-start;
+}
